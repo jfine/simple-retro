@@ -107,6 +107,11 @@ GEM
       pry (>= 0.13.0)
       shellany (~> 0.0)
       thor (>= 0.18.1)
+    guard-compat (1.2.1)
+    guard-rspec (4.7.3)
+      guard (~> 2.1)
+      guard-compat (~> 1.1)
+      rspec (>= 2.99.0, < 4.0)
     i18n (1.14.1)
       concurrent-ruby (~> 1.0)
     importmap-rails (2.0.1)
@@ -231,6 +236,10 @@ GEM
     reline (0.4.2)
       io-console (~> 0.5)
     rexml (3.2.6)
+    rspec (3.12.0)
+      rspec-core (~> 3.12.0)
+      rspec-expectations (~> 3.12.0)
+      rspec-mocks (~> 3.12.0)
     rspec-core (3.12.2)
       rspec-support (~> 3.12.0)
     rspec-expectations (3.12.3)
@@ -318,6 +327,7 @@ DEPENDENCIES
   bootsnap
   debug
   guard
+  guard-rspec
   importmap-rails
   jbuilder
   pry-doc
